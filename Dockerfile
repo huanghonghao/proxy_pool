@@ -19,6 +19,6 @@ RUN apk add musl-dev gcc libxml2-dev libxslt-dev && \
 
 COPY . .
 
-EXPOSE 80
+EXPOSE 5010
 
 ENTRYPOINT [ "sh", "start.sh" ]
